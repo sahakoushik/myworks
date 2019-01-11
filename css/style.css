@@ -1,0 +1,127 @@
+body {
+  background-color: #f5f5f5;
+}
+.navbar-default {
+  background: transparent;
+  border-color: transparent;
+}
+#myNavbar ul li {
+a
+  color: #000;
+}
+#myNavbar ul li:hover {
+  color: #000;
+}
+#intro {
+  height: 100vh;
+  text-align: center;
+}
+#intro .intro-heading {
+  padding-top: 15%;
+}
+#intro .intro-bottom {
+  padding-top: 20px;
+}
+#intro .intro-bottom span {
+  text-decoration: underline;
+}
+#intro .dot-line {
+  border: 2px dotted #000;
+  margin-top: 25%;
+}
+#section2 h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#section2 img {
+  height: 200px;
+  width: 500px;
+}
+#section2 .bottom-line {
+  border: 2px dotted #000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#section2 button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+#section2 .image-left {
+  margin-left: 60px;
+  width: 599px;
+  margin-top: 20px;
+}
+#section3 .top-section3 div {
+  text-align: center;
+}
+#section3 .top-section3 div h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#section3 .top-section3 .column3 {
+  padding-top: 50px;
+}
+#section3 .top-section3 .column3 div {
+  padding: 0px 40px;
+}
+#section3 .top-section3 .column3 div span {
+  font-weight: 700;
+}
+#section3 .bottom-line {
+  border: 2px dotted #000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#section3 .bottom-section3 .bottom-heading {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#section3 .bottom-section3 .bottom-heading h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#section3 .list h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#section3 .list ul {
+  list-style: none;
+}
+#section3 .list ul li {
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  padding: 10px 0px;
+}
+#section3 .list ul li span {
+  font-weight: 700;
+}
+.footer-bottom {
+  margin-top: 30px;
+  min-height: 100px;
+  color: #fff;
+  background-color: #000;
+}
+.footer-bottom a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-bottom .copyright {
+  padding-top: 20px;
+}
+.footer-bottom .design {
+  text-align: right;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
